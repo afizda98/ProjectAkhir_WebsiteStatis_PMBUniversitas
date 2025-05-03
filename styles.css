@@ -1,0 +1,247 @@
+.section-padding {
+    padding: 60px 0;
+}
+.bg-kampus {
+    background-color: #1f2f4f;
+}
+
+.navbar {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.hero-video-wrapper {
+    position: relative;
+    min-height: 100vh;
+    background-color: #1f2f4f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-frame {
+    background: white;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.video-frame video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: contain; 
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ffb946;
+}
+
+ul {
+    color: #fff;
+    font-size: 1rem;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 40px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffb946;
+    border-color: #ffb946;
+    color: #fff;
+}
+
+.animated {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
+.delay-1s {
+    animation-delay: 1s;
+}
+
+.delay-2s {
+    animation-delay: 2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffb946;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+.bg-kampus {
+    background-color: #1f2f4f;
+}
+.navbar {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+  .navbar-brand,
+  .nav-link {
+    color: white;
+  }
+  .form-section {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  .form-section h2 {
+    color: #1f2f4f;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ffb946;
+    }
+
+    
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; 
+    }
+
+    .dropdown-menu li a:hover {
+        background-color: #ffb946;
+        color: white;
+    }
+    
+ 
+    .dropdown-menu {
+        transition: all 0.1s ease-in-out;
+    }
+
+  
+    .dropdown-menu {
+        max-height: 300px; 
+        overflow-y: auto;
+    }  
+      
+      .model-img-left, .model-img-right {
+        height: 400px; 
+        object-fit: contain;
+      }
+
+      .card-img-top {
+        height: 220px;
+        object-fit: cover;
+      }
+
+      .facility-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+      }
+    
+      .facility-card:hover {
+        transform: translateY(-5px) scale(1.02);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+    
+      .facility-date {
+        font-size: 0.875rem;
+        color: #6c757d;
+      }
+      
+      .facility-carousel {
+        overflow: hidden;
+        position: relative;
+      }
+    
+      .facility-track {
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+    
+      .facility-card-wrapper {
+        flex: 0 0 100%;
+      }
+    
+      @media (min-width: 768px) {
+        .facility-card-wrapper {
+          flex: 0 0 33.3333%;
+        }
+      }
+    
+      .facility-card {
+        margin: 0 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+    
+      .facility-card:hover {
+        transform: translateY(-5px) scale(1.02);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+    
+      .facility-date {
+        font-size: 0.875rem;
+        color: #6c757d;
+      }
+    
+      .carousel-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: white;
+        border: none;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        z-index: 10;
+        padding: 10px;
+        cursor: pointer;
+      }
+    
+      .carousel-btn-left {
+        left: -10px;
+      }
+    
+      .carousel-btn-right {
+        right: -10px;
+      }

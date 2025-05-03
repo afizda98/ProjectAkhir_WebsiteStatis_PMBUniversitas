@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PMB Universitas Bhinneka PGRI</title>
+  <link rel="icon" type="image/x-icon" href="img/iconUbhi.ico">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-kampus fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-4 d-flex align-items-center" href="index.html">
+      <img src="img/logoUbhi.png" alt="Logo UBHI" style="height: 40px; filter: drop-shadow( 0 0 1px white);" class="me-2" />
+      PMB Universitas Bhinneka PGRI
+    </a>    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link px-3 fw-semibold text-white dropdown-toggle" href="#" id="pmbDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Kampus
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="pmbDropdown">
+            <li><a class="dropdown-item" href="https://ubhi.ac.id" target="_blank">Website Kampus Resmi</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?a=FRlMIn94Ux4dREdWTHlMKnkRYlJ3CFgaEk4sJR5HR1AVHEgienhLJBlH" target="_blank">Sambutan Rektor</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?a=FxZHIwB3SyMdREdWTHlMKnkRYlJ3CFgaEk4sJR5HSE8VF0cdeXpKIhdK" target="_blank">Pimpinan Universitas</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?p=GhZMG3p6UyAdREdWTHlMKnkRYlJ3CFgaEk4sJR5HSE4VG0YeeXtOIxdG" target="_blank">Sejarah</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?h=HhxNG3p6UyAdREdWTHlMKnkRYlJ3CFgaEk4sJR5HR1AVHEgjeHZLGxlJ" target="_blank">Visi dan Misi</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?o=FRdOG3p6UyAdREdWTHlMKnkRYlJ3CFgaEk4sJR5HR1AWE0gbeHVNJBtI" target="_blank">Sasaran dan Tujuan</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?g=FxxJHXp6UyAdREdWTHlMKnkRYlJ3CFgaEk4sJR5HSE4VG0YeeXxMHRhK" target="_blank">Makna Lambang</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?l=FhpKHHp6UyAdREdWTHlMKnkRYlJ3CFgaEk4sJR5HSE4VG0YeeXxLGxpE" target="_blank">Mars dan Hymne</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?n=GBxPG3p6UyAdREdWTHlMKnkRYlJ3CFgaEk4sJR5HSE4VG0YeeXlOHxpD" target="_blank">Struktur Organisasi</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?h=GBRGHHp6UyAdREdWTHlMKnkRYlJ3CFgaEk4sJR5HSE4VG0YeeXpOIhhE" target="_blank">Sarana dan Prasarana</a></li>
+            <li><a class="dropdown-item" href="https://ubhi.ac.id/?c=GRZGHHp6UyAdREdWTHlMKnkRYlJ3CFgaEk4sJR5HR1AWE0gbeHVOHxpG" target="_blank">keunggulan Kampus</a></li>
+          </ul>
+        </li>        
+        <li class="nav-item dropdown">
+          <a class="nav-link px-3 fw-semibold text-white dropdown-toggle" href="#" id="pmbDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Fakultas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="pmbDropdown">
+            <li><a class="dropdown-item" href="https://fsh.ubhi.ac.id/" target="_blank">Fakultas Sosial Humaniora</a></li>
+            <li><a class="dropdown-item" href="http://fst.ubhi.ac.id/" target="_blank">Fakultas Sains Teknologi</a></li>
+            <li><a class="dropdown-item" href="https://pasca.ubhi.ac.id/" target="_blank">Pascasarjana</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link px-3 fw-semibold text-white dropdown-toggle" href="#" id="pmbDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Prodi
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="pmbDropdown">
+            <li><a class="dropdown-item" href="https://math.ubhi.ac.id/" target="_blank">Pendidikan Matematika</a></li>
+            <li><a class="dropdown-item" href="https://english.ubhi.ac.id/" target="_blank">Pendidikan Bahasa Inggris</a></li>
+            <li><a class="dropdown-item" href="https://ekonomi.ubhi.ac.id/" target="_blank">Pendidikan Ekonomi</a></li>
+            <li><a class="dropdown-item" href="https://ppkn.ubhi.ac.id/" target="_blank">Pendidikan PKn</a></li>
+            <li><a class="dropdown-item" href="https://pgsd.ubhi.ac.id/" target="_blank">Pendidikan Guru SD</a></li>
+            <li><a class="dropdown-item" href="https://ipa.ubhi.ac.id/" target="_blank">Pendidikan IPA</a></li>
+            <li><a class="dropdown-item" href="https://pvto.ubhi.ac.id/" target="_blank">Pend. Vokasionalis Teknik Otomotif</a></li>
+            <li><a class="dropdown-item" href="https://pti.ubhi.ac.id/" target="_blank">Pendidikan Teknologi Informasi</a></li>
+            <li><a class="dropdown-item" href="https://arsi.ubhi.ac.id/" target="_blank">Arsitektur</a></li>
+            <li><a class="dropdown-item" href="https://tind.ubhi.ac.id/" target="_blank">Teknik Industri</a></li>
+            <li><a class="dropdown-item" href="https://infubhi.my.id/" target="_blank">Informatika</a></li>
+            <li><a class="dropdown-item" href="https://mips.ubhi.ac.id/" target="_blank">Magister Pendidikan IPS</a></li>
+            <li><a class="dropdown-item" href="https://mmath.ubhi.ac.id/" target="_blank">Magister Pendidikan Matematika</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link px-3 fw-semibold text-white dropdown-toggle" href="#" id="pmbDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Lembaga
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="pmbDropdown">
+            <li><a class="dropdown-item" href="https://lppm.ubhi.ac.id/" target="_blank">penelitian & Pengabdian Kepada Masyarakat</a></li>
+            <li><a class="dropdown-item" href="https://lpipm.ubhi.ac.id/" target="_blank">Pengawasan Internal & Penjaminan Mutu</a></li>
+            <li><a class="dropdown-item" href="http://ptik.ubhi.ac.id/" target="_blank">Pengembangan Teknologi Informasi & Komunikasi</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link px-3 fw-semibold text-white dropdown-toggle" href="#" id="pmbDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Bagian & Unit
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="pmbDropdown">
+            <li><a class="dropdown-item" href="https://baa.ubhi.ac.id/" target="_blank">Bagian Administrasi Akademik</a></li>
+            <li><a class="dropdown-item" href="https://kemahasiswaan.ubhi.ac.id/" target="_blank">Bagian Kemahasiswaan</a></li>
+            <li><a class="dropdown-item" href="https://simbau.ubhi.ac.id/" target="_blank">Bagian Administrasi Umum</a></li>
+            <li><a class="dropdown-item" href="https://simperpus.ubhi.ac.id/" target="_blank">Unit Pustaka</a></li>
+          </ul>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold text-white" href="pmb.html" target="_blank">PMB</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 fw-semibold text-white" href="https://ubhi.ac.id/?r=HBxPIQB3UB8eREdWTHlMKnwRYGICdlhgUUc" target="_blank">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Video Section -->
+<section class="hero-video-wrapper position-relative" style="min-height: 100vh;">
+    <div class="video-overlay"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        
+        <!-- Kolom Video -->
+        <div class="col-lg-7 mb-4 mb-lg-0">
+            <div class="video-frame">
+                <video autoplay muted loop playsinline>
+                  <source src="img/IklanKampus.mp4" type="video/mp4" />
+                  Browser Anda tidak mendukung tag video.
+                </video>
+              </div>
+              
+        </div>
+  
+        <!-- Kolom Visi & Misi -->
+        <div class="col-lg-5 text-light">
+            <h2 class="mt-4 animated fadeIn delay-1s" style="color: #ffb946;">Visi</h2>
+          <p class="lead animated fadeIn delay-2s">Menjadi perguruan tinggi unggul dan berwawasan enterpreneurship pada tahun 2025</p>
+          
+          <h2 class="mt-4 animated fadeIn delay-1s" style="color: #ffb946;">Misi</h2>
+            <ul class="animated fadeIn delay-2s">
+                <li>Menyelenggarakan pendidikan untuk menghasilkan sumberdaya manusia yang berbudaya mutu dan berwawasan enterprenuership.</li>
+                <li>Menyelenggarakan penelitian, untuk meningkakan mutu pendidikan dan pengembangan IPTEK berdasar nilai-nilai enterpreneurship.</li>
+                <li>Menyelenggarakan pengabdian kepada masyarakat berbasis riset untuk berperan aktif dalam memecahkan masalah pembangunan nasional.</li>
+                <li>Mengembangkan kemitraan pada tingkat nasional dan internasional untuk mendukung pelaksanaan tri dharma perguruan tinggi.</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+<!-- Daftar Sekarang -->
+<section class="text-center bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Gambar Kiri -->
+      <div class="col-md-3 d-flex justify-content-center align-items-end">
+        <img src="img/model1.png" alt="Model Kiri" class="model-img-left">
+      </div>
+
+      <!-- Konten Tengah -->
+      <div class="col-md-6 py-5">
+        <h2>Penerimaan Mahasiswa Baru 2025</h2>
+        <p>Jadilah bagian dan raih prestasi gemilang bersama kami.</p>
+        <a href="pmb.html" class="btn btn-primary btn-lg" >Daftar Sekarang</a>
+      </div>
+
+      <!-- Gambar Kanan -->
+      <div class="col-md-3 d-flex justify-content-center align-items-end">
+        <img src="img/model2.png" alt="Model Kanan" class="model-img-right">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Informasi Terbaru -->
+<section id="informasi" class="section-padding" style="background-color: #1f2f4f;">
+  <div class="container">
+    <h2 class="text-center text-white mb-5">Informasi Terbaru</h2>
+    <div class="row g-4">
+
+      <!-- Kartu Informasi 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg">
+          <img src="img/brosurPMB_01.jpg" class="card-img-top" alt="Informasi 1">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <h5 class="card-title">UBhi Membuka PMB Tahun Akademik 2025/2026</h5>
+              <p class="text-muted mb-3">03 Maret 2025</p>
+            </div>
+            <a href="https://ubhi.ac.id/?o=FRdJIwB3UB8eREdWTHlMKgERYlJ3CFgaElg8XF9UR0JQXA1PBWsKVEsLVhYRe0sqehseHkJESxwcHHocHlA" target="_blank" class="btn btn-primary btn-sm mt-auto align-self-start">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kartu Informasi 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg">
+          <img src="img/brosurPMB_02.jpg" class="card-img-top" alt="Informasi 2">
+          <div class="card-body">
+            <h5 class="card-title">Keunggulan Kampus UBhi</h5>
+            <p class="text-muted mb-2">03 Maret 2025</p>
+            <a href="https://ubhi.ac.id/?o=FRdJIwB3UB8eREdWTHlMKgERYlJ3CFgaElg8XF9UR0JQXA1PBWsKVEsLVhYRe0sqehseHkJESxwcHHoZHFA" target="_blank" class="btn btn-primary btn-sm">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kartu Informasi 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg">
+          <img src="img/brosurPMB_03.jpg" class="card-img-top" alt="Informasi 3">
+          <div class="card-body">
+            <h5 class="card-title">PMB 2025: KEUNGGULULAN KAMPUS UBHI</h5>
+            <p class="text-muted mb-2">03 Maret 2025</p>
+            <a href="https://ubhi.ac.id/?o=FRdJIwB3UB8eREdWTHlMKgERYlJ3CFgaElg8XF9UR0JQXA1PBWsKVEsLVhYRe0sqehseHkJESxwcHHgfHU4" target="_blank" class="btn btn-primary btn-sm">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kartu Informasi 4 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg">
+          <img src="img/brosurPMB_04.jpg" class="card-img-top" alt="Informasi 4">
+          <div class="card-body">
+            <h5 class="card-title">Biaya Kuliah di UBhi</h5>
+            <p class="text-muted mb-2">03 Maret 2025</p>
+            <a href="https://ubhi.ac.id/?o=FRdJIwB3UB8eREdWTHlMKgERYlJ3CFgaElg8XF9UR0JQXA1PBWsKVEsLVhYRe0sqehseHkJESxwcHHobH04" target="_blank" class="btn btn-primary btn-sm">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kartu Informasi 5 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg">
+          <img src="img/brosurPMB_05.jpg" class="card-img-top" alt="Informasi 5">
+          <div class="card-body">
+            <h5 class="card-title">Kuliah Beasiswa UBhi</h5>
+            <p class="text-muted mb-2">03 Maret 2025</p>
+            <a href="https://ubhi.ac.id/?o=FRdJIwB3UB8eREdWTHlMKgERYlJ3CFgaElg8XF9UR0JQXA1PBWsKVEsLVhYRe0sqehseHkJESxwcHHkaIVA" target="_blank" class="btn btn-primary btn-sm">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kartu Informasi 6 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg">
+          <img src="img/brosurPMB_06.jpg" class="card-img-top" alt="Informasi 6">
+          <div class="card-body">
+            <h5 class="card-title">PMB 2025 : RAIH KESEMPATAN BEASISWA KULIAH</h5>
+            <p class="text-muted mb-2">03 Maret 2025</p>
+            <a href="https://ubhi.ac.id/?o=FRdJIwB3UB8eREdWTHlMKgERYlJ3CFgaElg8XF9UR0JQXA1PBWsKVEsLVhYRe0sqehseHkJESxwcHHghHEk" target="_blank" class="btn btn-primary btn-sm">Selengkapnya</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Fasilitas -->
+<section id="fasilitas" class="py-5 bg-white">
+  <div class="container position-relative">
+    <h2 class="text-center mb-5">Latest Activity</h2>
+
+    <!-- Tombol Navigasi -->
+    <button class="carousel-btn carousel-btn-left" onclick="scrollFacility(-1)">&#10094;</button>
+    <button class="carousel-btn carousel-btn-right" onclick="scrollFacility(1)">&#10095;</button>
+
+    <!-- Carousel Wrapper -->
+    <div class="facility-carousel">
+      <div class="facility-track d-flex" id="facilityTrack">
+
+        <div class="facility-card-wrapper">
+          <div class="card h-100 border-0 shadow-sm facility-card text-center">
+            <img src="img/aktivitas_1.png" class="card-img-top" alt="Fasilitas 1">
+            <div class="card-body">
+              <p class="facility-date mb-1">03 Mei 2025</p>
+              <p class="card-text">UBhi : Kampus Masa Depan dengan Program Unggulan</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="facility-card-wrapper">
+          <div class="card h-100 border-0 shadow-sm facility-card text-center">
+            <img src="img/aktivitas_2.png" class="card-img-top" alt="Fasilitas 2">
+            <div class="card-body">
+              <p class="facility-date mb-1">03 Mei 2025</p>
+              <p class="card-text">Membangun Wirausaha Muda Melalui Sosialisasi Digital Marketing</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="facility-card-wrapper">
+          <div class="card h-100 border-0 shadow-sm facility-card text-center">
+            <img src="img/aktivitas_3.png" class="card-img-top" alt="Fasilitas 3">
+            <div class="card-body">
+              <p class="facility-date mb-1">03 Mei 2025</p>
+              <p class="card-text">Sosialisasi PMB di PGRI Kabupaten Kediri : Membangun Jejaring dan Merintis Paradigma Empowering University</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="facility-card-wrapper">
+          <div class="card h-100 border-0 shadow-sm facility-card text-center">
+            <img src="img/aktivitas_4.png" class="card-img-top" alt="Fasilitas 4">
+            <div class="card-body">
+              <p class="facility-date mb-1">03 Mei 2025</p>
+              <p class="card-text">Civitas Academica Universitas Bhinneka PGRI Melaksanakan Upacara HARDIKNAS 2025</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="facility-card-wrapper">
+          <div class="card h-100 border-0 shadow-sm facility-card text-center">
+            <img src="img/aktivitas_5.png" class="card-img-top" alt="Fasilitas 5">
+            <div class="card-body">
+              <p class="facility-date mb-1">03 Mei 2025</p>
+              <p class="card-text">Universitas Bhinneka PGRI (UBhi) Gelar Halal Bihalal</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="facility-card-wrapper">
+          <div class="card h-100 border-0 shadow-sm facility-card text-center">
+            <img src="img/aktivitas_6.jpg" class="card-img-top" alt="Fasilitas 6">
+            <div class="card-body">
+              <p class="facility-date mb-1">03 Mei 2025</p>
+              <p class="card-text">Kejuaraan Lomba Nasional PKM Artikel Ilmiah Perguruan Tinggi PGRI se Indonesia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-white bg-kampus pt-5 pb-3">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      
+      <!-- Kontak -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Kontak</h5>
+        <p class="mb-1"><i class="bi bi-telephone"></i> (0355) 321426</p>
+        <p class="mb-1"><i class="bi bi-envelope"></i> info@ubhi.ac.id</p>
+        <p><i class="bi bi-geo-alt"></i> JL. Mayor Sujadi Timur No 7 Tulungagung,<br>Kode Pos 66221</p>
+      </div>
+
+      <!-- Sosial Media -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Sosial Media</h5>
+        <a href="https://www.instagram.com/ubhi_official?igsh=a2c3OW1reHl1OTlr" target="_blank" class="d-block text-white text-decoration-none mb-1">
+          <i class="bi bi-instagram"></i> @ubhi_official
+        </a>
+        <a href="https://www.youtube.com/channel/UC7BW38AjVw0A6mgj5SY-eow" target="_blank" class="d-block text-white text-decoration-none">
+          <i class="bi bi-youtube"></i> UBHI Channel
+        </a>
+      </div>
+
+      <!-- Catatan -->
+      <div class="col-md-4">
+        <h5 class="fw-bold">Catatan</h5>
+        <p class="small">
+          Website ini dibuat untuk memenuhi Project Akhir Mata Kuliah Pengembangan Aplikasi Web
+        </p>
+      </div>
+    </div>
+
+    <!-- Garis dan hak cipta -->
+    <hr class="border-light">
+    <p class="text-center mb-0">&copy; 2025 Universitas Bhinneka PGRI. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  let scrollIndex = 0;
+
+  function scrollFacility(direction) {
+    const track = document.getElementById("facilityTrack");
+    const itemWidth = track.querySelector('.facility-card-wrapper').offsetWidth + 20; // 20 = margin
+
+    const maxIndex = track.children.length - 3;
+    scrollIndex = Math.max(0, Math.min(scrollIndex + direction, maxIndex));
+
+    track.style.transform = `translateX(-${scrollIndex * itemWidth}px)`;
+  }
+</script>
+
+</body>
+</html>
